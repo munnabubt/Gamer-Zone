@@ -53,7 +53,29 @@ nav li a {
     color: #424242;
 }
 
+.gamer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 100px;
+    margin: 20px 100px;
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+.games-images{
+    display: flex;
+}
 
 
 
