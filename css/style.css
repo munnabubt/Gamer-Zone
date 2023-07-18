@@ -80,6 +80,99 @@ nav li a {
 
 
 
+
+
+
+.play{
+    background: #FFF;
+    /* height: 400px; */
+
+}
+
+
+.play-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}.play-title{
+    font-size: 48px;
+    font-style: normal;
+}
+.play-description{
+    color: #534C64;
+font-size: 18px;
+font-style: normal
+}
+
+
+
+
+.catum-details{
+    height: 427px;
+}
+
+.catum-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align:center;
+    justify-content: center;
+    width: 100%;
+}
+.catom-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-size{
+    height: 45px;
+}
+
+.footer{
+    background: #0B0223;
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+    color: #FFF;
+    margin: 0px auto;
+    
+}
+
+.footer-title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   
+}
+
+
+.footer-story{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.footer-safety{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+
+.footer-icon{
+    width: 50px;
+    gap: 50px;
+    border-radius: 15px;
+}
+.footer-info{
+    padding: 80px;
+}
+
 /* Mobile styles */
 @media only screen and (max-width: 576px) {
     header {
