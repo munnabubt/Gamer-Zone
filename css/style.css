@@ -258,8 +258,9 @@ main{
     
 }
 .catom-info:hover{
-    border: 2px solid red;
+    border: 2px solid #F948B2;
     border-radius: 5px;
+    color:#F948B2;
 }
  
 
