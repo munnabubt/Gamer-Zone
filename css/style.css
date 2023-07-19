@@ -3,7 +3,17 @@ header {
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     padding: 20px 100px;
+    width: 90%;
 
+}
+/* .nav-container{
+    display: flex;
+}
+.nav-items-container{
+    display: flex;
+} */
+.first-text{
+    color:#FF42A5;
 }
 .gamer{
     text-align: center;
@@ -84,6 +94,10 @@ nav li a {
     border-radius: 8px;
 }
 
+.gamer-right-img{
+    width: 100%;
+    height: 500px;
+}
 
 .gamer-container{
     display: flex;
@@ -91,17 +105,31 @@ nav li a {
     justify-content: center;
     padding: 20px 100px;
     /* margin: 20px 100px; */
-    gap: 80px;
-    height: 800px;
+    justify-content: space-between;
+    height: 450px;
 }
 .gamer-content{
     margin-right: 150px;
+    align-items: center;
+    justify-items: center;
 
 }
+.text-light-gray{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
 .funny-video{
-    height: 700px;
+    height: 450px;
     width: 100%;
     margin: 0 auto;
+}
+.funny-video-text{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+
 }
 .online-game{
     /* display: flex; */
@@ -123,8 +151,8 @@ nav li a {
 }
 
 .games-img-size{
-    width: 342px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     border-radius: 16px;
 }
 
@@ -134,22 +162,16 @@ nav li a {
     padding-right: 100px;
     width: 80%;
     gap: 10px;
-    margin-top: 50px;
-    
-
-    
+    margin-top: 50px; 
     
 }
 
 
-
-
-
-
-
 .play{
     background: #FFF;
-     height: 900px; 
+     height: 650px; 
+     width: 100%;
+     
 
 }
 
@@ -158,6 +180,7 @@ nav li a {
     display: flex;
     align-items: center;
     justify-content: center;
+    justify-content: space-around;
 
 }
 .play-info{
@@ -168,9 +191,12 @@ nav li a {
 
 }
 .play-title{
-    font-size: 48px;
+    font-size: 35px;
     font-style: normal;
     
+}
+.play-title-text{
+    color: #F948B2;
 }
 .play-description{
     color: #534C64;
@@ -178,25 +204,26 @@ nav li a {
     font-style: normal
 }
 .play-img{
-    width: 634.833px;
-    height: 650px;
+    width: 90%;
+    height: 400px;
 }
 .play-img-talking{
     border-radius: 8px;
     color: #FFF;
-    width: 280px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     text-align: center;
     position: relative;
-    bottom: 100px;
-    left: -130px;
+    bottom: 120px;
+    left: -80px;
 
 }
 
 
 
 .catum-details{
-    height: 427px;
+    height: 450px;
+    width: 100%;
 }
 
 .catum-container{
@@ -207,17 +234,25 @@ nav li a {
     width: 80%;
     padding-left: 100px;
     padding-right: 100px;
+    margin-top: 100px;
 }
 .catom-info{
     display: flex;
     align-items: center;
-    gap: 10px;
-    margin-right: 10px;
+    gap: 20px;
+    margin: 0 auto;
     
 }
-.catom-info-second{
-    display: flex;
+.catom-info:hover{
+    border: 2px solid red;
 }
+ .role{
+    margin: 0px 90px;
+    width: 100%;
+    margin-right: 10px;
+   
+
+} 
 
 
 .img-size{
@@ -227,11 +262,12 @@ nav li a {
 
 .footer{
     background: #0B0223;
-    height: 500px;
+    height: 450px;
     text-align: center;
     justify-content: center;
     color: #FFF;
-    margin: 0px auto;
+    /* margin: 0px auto; */
+    width: 100%;
     
 }
 
@@ -269,32 +305,20 @@ nav li a {
 }
 
 /* Mobile styles */
-@media only screen and (max-width: 576px) {
-    header {
-        padding: 18px;
+@media screen and (max-width:576) {
+    .nav-container{
+        flex-direction: column;
     }
-
-    .gamer {
+    .nav-items-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-items-container a{
+        margin-top: 20px;
         font-size: 30px;
-    }
-
-    nav {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav li a {
-        font-size: 50px;
-        text-align: center;
-        justify-content: center;
-    }
-    nav ul{
-        flex-direction: column;
-        
         
     }
-
-    .nav-list3 {
-        width: 50%;
-    }
+    .nav-list{
+    
+   }
 }
