@@ -377,3 +377,64 @@ main{
     }
 }
 
+/************** tablet responsive **************/
+@media screen and (min-width:576px) and (max-width: 960px) {
+
+    header{
+        padding: 70px;
+    }
+    nav {
+        flex-direction: column;
+     
+    }
+    nav li a {
+        gap: 20px;
+        font-size: 30px;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    .gamer-container{
+        flex-direction: column;
+        height: 1200px;
+    }
+    .gamer-content{
+        flex-direction: column;
+        
+    }
+    .funny-flex{
+        flex-direction: column;
+       
+    }
+    .games-images{
+        flex-direction: column;
+        height: 1200px;
+    }
+    .play-container{
+        flex-direction: column;
+    }
+    .play-img-div{
+        flex-direction: column;
+        margin-bottom: 900px;
+    }
+    .play{
+        height: 1500px;
+    }
+    
+    .funny-video{
+        height: 1800px;
+    }
+    .catum-container{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .catum-details{
+        height: 800px;
+    }
+    
+    .footer{
+        height: 1200px;
+    }
+    .footer-story{
+        flex-wrap: wrap;
+    } 
+}
